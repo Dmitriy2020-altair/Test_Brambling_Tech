@@ -1,0 +1,38 @@
+.progress {
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	top: 350px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.progress__elem {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	animation: progress-anim 1s ease-in-out infinite;
+	z-index: -1;
+}
+
+@keyframes progress-anim {
+	0% {
+		box-shadow: 0 0 0 0px white, 0 0 0 0 rgba(41, 98, 255, 0.3);
+	}
+	50% {
+		box-shadow: 0 0 0 0px white, 0 0 0 10px rgba(41, 98, 255, 0.3);
+	}
+	100% {
+		box-shadow: 0 0 0 10px white, 0 0 0 10px rgba(41, 98, 255, 0.3);
+	}
+}

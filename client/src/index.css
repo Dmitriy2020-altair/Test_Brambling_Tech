@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+	--primary-color: rgb(41, 98, 255);
+	--primary-dark-color: rgb(13, 71, 161);
+	--secondary-color: #757575;
+	--third-color: #eeeeee;
+}

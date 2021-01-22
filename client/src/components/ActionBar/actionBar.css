@@ -1,0 +1,19 @@
+.action-bar {
+	display: flex;
+	border-radius: 8px;
+	border: 2px solid gray;
+	margin: 10px;
+	width: 100%;
+	padding: 8px;
+}
+
+.action-bar > div {
+	flex: 1 1;
+}
+
+.action-bar__input-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 8px;
+	padding-inline: 8px;
+}
